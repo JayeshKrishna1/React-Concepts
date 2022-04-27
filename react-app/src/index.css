@@ -1,0 +1,44 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: aquamarine;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-style: italic;
+  color: red;
+}
+
+h1 {
+  /* justify-content: center; */
+  margin: 0.5rem;
+  /* margin-left: 200px; */
+  /* align-content: center; */
+}
+
+h4 {
+  /* justify-content: center; */
+  margin: 0.5rem;
+  /* margin-left: 200px; */
+  /* align-content: center; */
+}
+
+@media screen and (maxwidth: 1000px) {
+  .BookList {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+img {
+  max-width: 50%;
+  max-height: 50%;
+  height: 200px;
+  width: 200px;
+  /* justify-content: center; */
+  margin: 0.5rem;
+  /* margin-left: 200px; */
+  /* align-content: center; */
+}
